@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* apply styling for the legend itself */
+.legend {
+  width: 100px;
+  height: 150px;
+  line-height: 15px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+/* apply styling for each element inside the legend */
+.legend i {
+  width: 25px;
+  height: 15px;
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  opacity: 0.8;
+}
